@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <title>HTML</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
     <style>
         h1 {
             width: 65px;
             color: orange;
+            font-family: sans-serif;
         }
         #lista {
             background-color: goldenrod;
@@ -14,15 +16,35 @@
         .fundo {
             background-color: aquamarine;
         }
+        p {
+          font-weight: 600;
+          font-size: 3em;
+        }
+        body {
+          font-size: 16px;
+          font-style: italic;
+          line-height: 30px;
+          text-align: justify;
+          text-decoration: solid;
+        }
+        #Amarelo {
+          background-color: yellow;
+        }
+        #Vermelho {
+          background-color: red;
+        }
+        #Marrom {
+          background-color: brown;
+        }
     </style>
   </head>
   <body>
     <h1>Exercícios 3.2</h1>
     <p class="fundo">Qual é a sua cor favorita?</p>
     <ul id="lista" class="fundo">
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+      <li id="Amarelo">Amarelo</li>
+      <li id="Vermelho">Vermelho</li>
+      <li id="Marrom">Marrom</li>
     </ul>
   </body>
 </html>
