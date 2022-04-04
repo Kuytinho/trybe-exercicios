@@ -8,6 +8,7 @@ h1 {
     height: 50px;
     text-align: center;
     width: 200px;
+    margin-left: 530px;
   }
 
   .second {
@@ -16,6 +17,8 @@ h1 {
     height: 50px;
     text-align: center;
     width: 300px;
+    display: inline-block;
+    margin-left: 330px;
   }
 
   .third {
@@ -24,4 +27,16 @@ h1 {
     height: 50px;
     text-align: center;
     width: 300px;
+    display: inline-block;
+  }
+  h3 {
+    text-align: center;
+    margin-left: 30px;
+  }
+  .Prize ul li {
+    display: inline-block;
+    
+  }
+  .Money {
+    margin-left: 300px;
   }
