@@ -1,0 +1,36 @@
+#boxe {
+    width: 500px;
+}
+body{
+    background-image: url(./fundo.jpg);
+    background-size: 100%;
+}
+h1 {
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2 {
+    background-color: chartreuse;
+    margin-right: 1200px;
+}
+.aside {
+    display: inline-block;
+    background-color: aliceblue;
+    margin-right: 20px;
+        position: absolute;
+            top:60%;
+            right: 0%;
+    
+}
+.tit {
+    background-color: aqua;
+    margin-right: 1200px;
+}
+.par,li {
+    background-color: blueviolet;
+    margin-right: 1200px;
+}
+.link :hover{
+    color: rgb(14, 14, 14);
+}
