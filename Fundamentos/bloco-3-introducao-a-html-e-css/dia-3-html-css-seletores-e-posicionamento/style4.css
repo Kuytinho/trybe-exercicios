@@ -33,4 +33,4 @@ div:nth-of-type(5) > h3 {
     color: yellowgreen;
 }
 div:nth-child(odd) h3 {
-    font-style: italic
+    font-style: italic;]
