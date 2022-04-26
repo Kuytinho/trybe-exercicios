@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script>src="script.css"</script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">Nome Completo:</label>
+        <input type="text" name="name" id="name" maxlength="40cr" minlength="10cr" >
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" maxlength="50cr" minlength="10cr">
+        <br>
+        <label for="destino">Destino Preferido:</label>
+        <select name="destino" id="destino">
+            <option value="cidade">Cidade</option>
+            <option value="campo">Campo</option>
+            <option value="praia">Praia</option>
+            <option value="montanhas">Montanhas</option>
+        </select>
+        <br>
+        <label for="textbox">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
+        <br>
+        <textarea name="textbox" id="textbox" cols="30" rows="10" maxlength="500cr"></textarea>
+        <br>
+        <label for="data">Qual a melhor data para realizar sua viagem?</label>
+        <br>
+        <input type="text" name="data" id="data" placeholder="Ex: dd/mm/aaaa">
+        <br>
+        <label for="oportunidades">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+        <input type="radio" name="opção-oportunidade" id="sim">Sim
+        <input type="radio" name="opção-oportunidade" id="nao">Não
+        <br>
+        <label for="">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+        <input type="radio" name="opção-imagens" id="sim">Sim
+        <input type="radio" name="opção-imagens" id="nao">Não
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>
